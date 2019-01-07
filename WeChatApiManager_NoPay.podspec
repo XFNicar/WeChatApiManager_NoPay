@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "WeChatApiManager_NoPay"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "微信SDK-iOS平台API代理，方便工程组件化以及工程中多target的时候使用。"
 
   # This description is used to generate tags and improve search results.

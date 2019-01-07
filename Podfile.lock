@@ -1,0 +1,16 @@
+PODS:
+  - WechatOpenSDK_NoPay (1.8.0)
+
+DEPENDENCIES:
+  - WechatOpenSDK_NoPay
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - WechatOpenSDK_NoPay
+
+SPEC CHECKSUMS:
+  WechatOpenSDK_NoPay: 27366a152202a6a7c8a15fad4d07261e87fb2389
+
+PODFILE CHECKSUM: b918fbe159815d7c3a2d119de6e17671fed2d175
+
+COCOAPODS: 1.5.3

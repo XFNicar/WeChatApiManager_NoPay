@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		661B5F900D5A3D85AAEE15C33AA742B9 /* Pods-WeChatApiManager_NoPay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DECA3DB73DFB8AF4C38D540D911EC8F1 /* Pods-WeChatApiManager_NoPay-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06E39ECC3BE8AF8233BACB53135AD0B8 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.8.0_NoPay/libWeChatSDK.a; sourceTree = "<group>"; };
+		4DFEB090E7763DBD947A7EAF6052F0F4 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.8.0_NoPay/WXApi.h; sourceTree = "<group>"; };
+		5130A0B1AFE9654F8B33107FFE98E02A /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.8.0_NoPay/WechatAuthSDK.h; sourceTree = "<group>"; };
+		574FDC1136D864270873BE696C7CA54D /* Pods-WeChatApiManager_NoPay-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeChatApiManager_NoPay-acknowledgements.plist"; sourceTree = "<group>"; };
+		6DA55365BED350F8EB437A6E9C5189E1 /* Pods-WeChatApiManager_NoPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeChatApiManager_NoPay.release.xcconfig"; sourceTree = "<group>"; };
+		866201E2D28E26C2695FF3C2E11345B4 /* libPods-WeChatApiManager_NoPay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WeChatApiManager_NoPay.a"; path = "libPods-WeChatApiManager_NoPay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9955C74589AF71329914D65D98599B38 /* Pods-WeChatApiManager_NoPay-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeChatApiManager_NoPay-frameworks.sh"; sourceTree = "<group>"; };
+		9CF6C07C403D38DBC3EFA2E10A71277C /* Pods-WeChatApiManager_NoPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeChatApiManager_NoPay.debug.xcconfig"; sourceTree = "<group>"; };
+		BCBAA22CE0AEE6A01F905886387262C5 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.8.0_NoPay/WXApiObject.h; sourceTree = "<group>"; };
+		D732E561E41026BE18940C4853E57BD3 /* Pods-WeChatApiManager_NoPay-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeChatApiManager_NoPay-resources.sh"; sourceTree = "<group>"; };
+		DECA3DB73DFB8AF4C38D540D911EC8F1 /* Pods-WeChatApiManager_NoPay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeChatApiManager_NoPay-dummy.m"; sourceTree = "<group>"; };
+		ED3B9BA489415E3684CB9246A917445A /* Pods-WeChatApiManager_NoPay-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeChatApiManager_NoPay-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80FD62B07F98947F063F77DFA752ACB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		239C503A946A31266789A79C1D45DE8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				866201E2D28E26C2695FF3C2E11345B4 /* libPods-WeChatApiManager_NoPay.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BD762EBF8F2B1C129C65D8A06045AF2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEE3EDBA115D5F69EC94AC084FB5F0D5 /* Pods-WeChatApiManager_NoPay */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				922497B043D7172E080FE2EC7C365EDB /* Pods */,
+				239C503A946A31266789A79C1D45DE8D /* Products */,
+				6BD762EBF8F2B1C129C65D8A06045AF2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		922497B043D7172E080FE2EC7C365EDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8227E131334C526F25BF07B69E6F060 /* WechatOpenSDK_NoPay */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A8227E131334C526F25BF07B69E6F060 /* WechatOpenSDK_NoPay */ = {
+			isa = PBXGroup;
+			children = (
+				5130A0B1AFE9654F8B33107FFE98E02A /* WechatAuthSDK.h */,
+				4DFEB090E7763DBD947A7EAF6052F0F4 /* WXApi.h */,
+				BCBAA22CE0AEE6A01F905886387262C5 /* WXApiObject.h */,
+				DDA91018FC15507F9520241F6B17CF60 /* Frameworks */,
+			);
+			name = WechatOpenSDK_NoPay;
+			path = WechatOpenSDK_NoPay;
+			sourceTree = "<group>";
+		};
+		DDA91018FC15507F9520241F6B17CF60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06E39ECC3BE8AF8233BACB53135AD0B8 /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEE3EDBA115D5F69EC94AC084FB5F0D5 /* Pods-WeChatApiManager_NoPay */ = {
+			isa = PBXGroup;
+			children = (
+				ED3B9BA489415E3684CB9246A917445A /* Pods-WeChatApiManager_NoPay-acknowledgements.markdown */,
+				574FDC1136D864270873BE696C7CA54D /* Pods-WeChatApiManager_NoPay-acknowledgements.plist */,
+				DECA3DB73DFB8AF4C38D540D911EC8F1 /* Pods-WeChatApiManager_NoPay-dummy.m */,
+				9955C74589AF71329914D65D98599B38 /* Pods-WeChatApiManager_NoPay-frameworks.sh */,
+				D732E561E41026BE18940C4853E57BD3 /* Pods-WeChatApiManager_NoPay-resources.sh */,
+				9CF6C07C403D38DBC3EFA2E10A71277C /* Pods-WeChatApiManager_NoPay.debug.xcconfig */,
+				6DA55365BED350F8EB437A6E9C5189E1 /* Pods-WeChatApiManager_NoPay.release.xcconfig */,
+			);
+			name = "Pods-WeChatApiManager_NoPay";
+			path = "Target Support Files/Pods-WeChatApiManager_NoPay";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15D0BD064D9A6B4E7C019B6F32D4469D /* Pods-WeChatApiManager_NoPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACEBEF49152086C15D828CD5B9E468AB /* Build configuration list for PBXNativeTarget "Pods-WeChatApiManager_NoPay" */;
+			buildPhases = (
+				F2218725FD7BE2BA690B539C2399E422 /* Sources */,
+				80FD62B07F98947F063F77DFA752ACB9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WeChatApiManager_NoPay";
+			productName = "Pods-WeChatApiManager_NoPay";
+			productReference = 866201E2D28E26C2695FF3C2E11345B4 /* libPods-WeChatApiManager_NoPay.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 239C503A946A31266789A79C1D45DE8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15D0BD064D9A6B4E7C019B6F32D4469D /* Pods-WeChatApiManager_NoPay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2218725FD7BE2BA690B539C2399E422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661B5F900D5A3D85AAEE15C33AA742B9 /* Pods-WeChatApiManager_NoPay-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		063198AB09B9CDB3A695432FC17AD8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3BB9C4ADFE3F156E8A7B54CE29F7B3FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CF6C07C403D38DBC3EFA2E10A71277C /* Pods-WeChatApiManager_NoPay.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87EAC867385563488A6D8F1E74AC46B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B8C373963FB78DDCED26AAA7F2D4E661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DA55365BED350F8EB437A6E9C5189E1 /* Pods-WeChatApiManager_NoPay.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87EAC867385563488A6D8F1E74AC46B4 /* Debug */,
+				063198AB09B9CDB3A695432FC17AD8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACEBEF49152086C15D828CD5B9E468AB /* Build configuration list for PBXNativeTarget "Pods-WeChatApiManager_NoPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB9C4ADFE3F156E8A7B54CE29F7B3FD /* Debug */,
+				B8C373963FB78DDCED26AAA7F2D4E661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
